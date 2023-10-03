@@ -16,15 +16,13 @@ const Filter = () => {
     ];
     return (
         <>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center">
                 <div className='my-2'>
                     <select
                         className="px-4 py-2 border outline-none rounded"
-                        // eslint-disable-next-line react/prop-types
                         value={selectedFilter.price}
                         onChange={(e) => handleFilterChange({ ...selectedFilter, price: e.target.value })}
                     >
-                        {/* eslint-disable-next-line react/prop-types */}
                         {priceRanges.map((range) => (
                             <option key={range.value} value={range.value}>
                                 {range.label}
@@ -35,12 +33,10 @@ const Filter = () => {
                 <div className="m-2">
                     <select
                         className="px-4 py-2 border outline-none rounded"
-                        // eslint-disable-next-line react/prop-types
                         value={selectedFilter.city}
                         onChange={(e) => handleFilterChange({ ...selectedFilter, city: e.target.value })}
                     >
                         <option value="">Select City</option>
-                        {/* eslint-disable-next-line react/prop-types */}
                         {cities.map((city, index) => (
                             <option key={index} value={city}>
                                 {city}
@@ -51,12 +47,10 @@ const Filter = () => {
                 <div className="m-2">
                     <select
                         className="px-4 py-2 border outline-none rounded"
-                        // eslint-disable-next-line react/prop-types
                         value={selectedFilter.bedRooms}
                         onChange={(e) => handleFilterChange({ ...selectedFilter, bedRooms: e.target.value })}
                     >
                         <option value="">Select BHK</option>
-                        {/* eslint-disable-next-line react/prop-types */}
                         {bedRooms.map((bedroom, index) => (
                             <option key={index} value={bedroom === "Select BHK" ? "" : bedroom}>
                                 {bedroom === "Select BHK" ? bedroom : `${bedroom} BHK`}

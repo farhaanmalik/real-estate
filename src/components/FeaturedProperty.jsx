@@ -1,5 +1,4 @@
 import PropertiesItem from "./PropertiesItem";
-// import propertydata from "./Data";
 import { Link } from "react-router-dom";
 import { AppContext } from "./RealEstateContext";
 import { useContext } from "react";
