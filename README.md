@@ -32,7 +32,7 @@ Ensure you have Node.js and npm (Node Package Manager) installed on your system.
 2. Navigate to the project directory:
 
    ```bash
-  cd real-estate
+   cd real-estate
    
 3. Install the dependencies:
 
@@ -45,5 +45,6 @@ Start the development server:
 
    ```bash
    npm run dev
+
 
 This will launch the application locally. Open your browser and visit 'http://localhost:3000' to view the Real Estate website.
