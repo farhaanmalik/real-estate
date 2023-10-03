@@ -17,7 +17,7 @@ const Header = () => {
                     </a>
                     <div className="mt-2">
                         <div className="relative md:hidden block" onClick={handleSidebar}>Menu</div>
-                        <nav className={openSidebar ? "absolute transform translate-x-0 opacity-100 block left-0 top-0 bg-white md:bg-transparent md:ml-auto md:relative md:w-full w-1/2 h-screen md:h-fit md:p-0 p-6 transition-all duration-200": "absolute transform -translate-x-24 opacity-0 hidden left-0 top-0 bg-white md:bg-transparent md:ml-auto md:relative md:w-full w-1/2 h-screen md:h-fit md:p-0 p-6 transition-all duration-200"}>
+                        <nav className={openSidebar ? "absolute transform translate-x-0 opacity-100 left-0 top-0 bg-white md:bg-transparent md:ml-auto md:relative md:w-full w-1/2 h-screen md:h-fit md:p-0 p-6 transition-all duration-200": "absolute transform -translate-x-24 md:translate-x-0 md:opacity-100 opacity-0 left-0 top-0 bg-white md:bg-transparent md:ml-auto md:relative md:w-full w-1/2 h-screen md:h-fit md:p-0 p-6 transition-all duration-200"}>
                             <div className="block md:hidden text-indigo-500">
                                 <span onClick={() => setOpenSidebar(false)}>Close</span>
                             </div>
