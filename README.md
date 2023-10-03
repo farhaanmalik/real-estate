@@ -11,10 +11,10 @@
 
 ## Tools Used
 
-- **React.js**:
-- **Vite**:
-- **Tailwind CSS**:
-- **React Context API**:
+- **React.js**
+- **Vite**
+- **Tailwind CSS**
+- **React Context API**
 
 ## Getting Started
 
@@ -39,12 +39,20 @@ Ensure you have Node.js and npm (Node Package Manager) installed on your system.
    ```bash
    npm install
 
-### Running the Application
-
-Start the development server:
+4. Start the development server:
 
    ```bash
    npm run dev
 
+Note: This will launch the application locally. Open your browser and visit 'http://localhost:3000' to view the Real Estate website.
 
-This will launch the application locally. Open your browser and visit 'http://localhost:3000' to view the Real Estate website.
+### Usage
+
+- **Filter Properties:** Use the provided filters to refine property search results.
+- **View Property Details:** Click on individual listings to see detailed information.
+
+### Contributing
+Contributions are welcome! Feel free to submit issues or pull requests.
+
+### License
+This project is licensed under the MIT License.
