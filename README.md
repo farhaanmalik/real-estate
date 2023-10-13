@@ -1,6 +1,6 @@
 # Real Estate Project
 
-**Prime - Real Estate** is a modern web application built with React.js, Vite, and Tailwind CSS, designed to provide an intuitive and seamless experience for browsing real estate listings. The application utilizes React's Context API to manage state through hooks, allowing users to filter properties and view detailed information about individual listings.
+**PrimeView - Real Estate** is a modern web application built with React.js, Vite, and Tailwind CSS, designed to provide an intuitive and seamless experience for browsing real estate listings. The application utilizes React's Context API to manage state through hooks, allowing users to filter properties and view detailed information about individual listings.
 
 - **Check Live:** https://primeview-realestate.vercel.app/
 
